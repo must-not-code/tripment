@@ -10,6 +10,6 @@ class Procedure < ApplicationRecord
             WHEN title ILIKE '%#{title}%' THEN 3
           END
         SQL
-       ))
+      ))
   end
 end
