@@ -1,24 +1,12 @@
-# README
+Нужно сделать эндпоинт поиска процедур. Он должен возвращать JSON. Вначале списка выдаются те процедуры, у которых запрос совпадает с началом слова, а далее те, у которых просто запрос входит в название.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Процедуры нужно спарсить из Википедии  
+https://en.wikipedia.org/wiki/Medical_procedure#List_of_medical_procedures
 
-Things you may want to cover:
+## Условия
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Используй Ruby on Rails и PostgreSQL
+- Дай возможность наполнить базу процедурами
+- Протестируй код
+- Разверни приложение
+- Остальное на твоё усмотрение
